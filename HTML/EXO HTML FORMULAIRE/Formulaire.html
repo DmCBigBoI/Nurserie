@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css_exo.css">
+</head>
+<body>
+            <center> <h1>Votre réservation d'hotel</h1> </center>
+<br>
+           <center> <h2>*   champs obligatoire</h2> </center>
+    
+
+    <form method="get">
+
+        <label> Votre Nom*:</label>
+        
+           <br> <input type="text" placeholder="nom de famille" id="name" name="name" required="required">
+    
+
+        <p>
+            <br>
+        <label for="prenom"> Votre prénom*:</label>
+               
+            <br> <input type="text" placeholder="prenom" id="prenom" name="prenom" required="required" >
+            
+        </p>
+
+        <p>
+            <br>
+                <label> Votre numéro de téléphone*:</label>
+                   
+                
+            <br> <input type="tel" placeholder="0666666666" id="numero" name="numero" size="" required="required">
+            
+        </p>
+
+        <p>
+            <br>
+                <label> Adresse e-mail*:</label>
+                
+                
+           <br> <input type="email" placeholder=""id="mail" name="mail" size="" required="required">
+        
+        </p>
+
+        <p>
+            <br>
+            <label for="ville">Selectionner la ville :</label>
+            <br><select id="ville" name="ville" size="">
+                <option value="Lille">Lille</option>
+                <option value="Paris">Paris</option>
+                <option value="Bordeaux">Bordeaux</option>
+                <option value="Marseille">Marseille</option>
+                <option value="Nantes">Nantes</option>
+                <option value="Lyon">Lyon</option>
+                <option value="La Rochelle">La Rochelle</option>
+                <option value="Poitiers">Poitiers</option>
+                <option value="Toulouse">Toulouse</option>
+</select>
+        </p>
+
+
+        <p>
+            <br>
+        <label for="date"> Date d'arrivée:</label>
+        
+            
+            <br> <input type="date" placeholder="jj/mm/aaaa" id="date" name="date" size="">
+            
+        </p>
+
+        <p>
+            <br>
+        <label for="nombre_de_personne"> Nombre de personnes*:</label>
+       
+            <label>
+            <br> <input type="number" placeholder="" min="0" id="nombre_de_personne" name="nombre_de_personne" size="" required="required">
+            </label>
+        </p>
+
+
+
+
+        <p>
+            <br>
+    <fieldset>
+         Vos options:
+            <label for="option">
+                <br> Climatisation
+                    <input type="checkbox"name="option" id="option" value="Clim" >
+            </label>
+            <label for="option">
+                Mini Bar
+                    <input type="checkbox" name="option" id="option" value="Bar">
+            </label>
+            <label for="option" >
+                Jacuzzi
+                    <input type="checkbox" name="option" id="option" value="Jacuzzi">
+            </label>
+    </fieldset>
+        </p>
+                
+             
+
+        <p>
+            <label for="commentaire">
+                <textarea name="Commentaire" id="" cols="20" rows="3" placeholder="Ajouter un commentaire." ></textarea>
+                
+            </label>
+            
+        </p>
+
+        <p>
+            Acceptation des Conditions Général de Vente (CGV)*:
+        
+            <label for="CGV">
+                <br> J'accepte
+                <input type="radio" name="CGV" id="CGV" value="OK" required="required">
+            </label>
+            <Label>
+                Je refuse
+                <input type="radio" name="CGV" id="CGV" checked value="Pas_OK"  required="required">
+            </Label>
+        </p>
+                
+        <p>
+           
+            <label>
+                <button type="submit" name="submit">Envoyer ma
+                    demande</button> 
+            </label>
+        </p>
+       
+                
+    </form>
+</body>
+</html>
+
+
+<!-- 
+    Formulaire.html?
+name=qsdsqd&
+prenom=dqsdsqd&
+numero=154165&
+mail=fafz%40gmail.com&
+ville=Lille&
+date=2022-10-05&
+nombre_de_personne=2
+&option=Clim&
+option=Jacuzzi&
+Commentaire=sqdqsffqf&
+CGV=Pas_OK&
+submit= -->
